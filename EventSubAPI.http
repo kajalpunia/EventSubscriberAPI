@@ -1,0 +1,6 @@
+@EventSubAPI_HostAddress = http://localhost:5029
+
+post {{EventSubAPI_HostAddress}}/api/events/receive
+Accept: application/json
+
+###
